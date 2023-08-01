@@ -1,0 +1,60 @@
+*{
+    color: beige;
+}
+
+body{
+    display: flexbox;
+    overflow-y: scroll;
+    height: auto;
+}
+.bg-grad{
+    background: linear-gradient(to top, rgb(0, 102, 161) 0%, rgb(0, 68, 108) 90.1%);
+
+}
+
+.page-title{
+    padding: 3rem;
+    background: linear-gradient(109.6deg, rgb(31, 179, 237) 11.2%, rgb(17, 106, 197) 91.1%);
+
+}
+nav{
+    background: linear-gradient(109.6deg, rgb(31, 179, 237) 11.2%, rgb(17, 106, 197) 91.1%);
+}
+
+.nav-link{
+    color: beige;
+}
+
+a{
+    color: beige;
+    text-decoration: none;
+}
+
+main{
+    background: linear-gradient(109.6deg, rgb(31, 179, 237) 11.2%, rgb(17, 106, 197) 91.1%);
+
+}
+
+img{
+    height: 50%;
+    width: 50%;
+    margin-left: auto;
+}
+
+.card{
+    background-color: transparent;
+}
+
+.card h2{
+    font-size: 34px;
+}
+
+.card-body{
+    color: inherit;
+}
+
+article h2{
+    font-size: 34px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
