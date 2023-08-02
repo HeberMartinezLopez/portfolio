@@ -10,7 +10,12 @@ N/A
 
 ## Usage
 
-In order to use this page, simply click on the following link and you will be taken to the homepage. There you can use the navbar to scroll to About Me, My Works, and Contact information. 
+In order to use this page, simply click on the following link and you will be taken to the homepage. 
+
+[https://hebermartinezlopez.github.io/portfolio/](https://hebermartinezlopez.github.io/portfolio/)
+
+There you can use the navbar to scroll to About Me, My Works, and Contact information.
+
 
 ## License
 
@@ -21,3 +26,5 @@ Please refer to LICENSE in the repo.
 N/A
 
 ## Deployed Link
+
+[https://hebermartinezlopez.github.io/portfolio/](https://hebermartinezlopez.github.io/portfolio/)
