@@ -20,7 +20,10 @@ body{
 nav{
     background: linear-gradient(109.6deg, rgb(31, 179, 237) 11.2%, rgb(17, 106, 197) 91.1%);
 }
-
+.logo{
+    height: 2%;
+    width: 2%;
+}
 .nav-link{
     color: beige;
 }
@@ -35,13 +38,14 @@ main{
 
 }
 
+/* About Me CSS */
 img{
     height: 50%;
     width: 50%;
     margin-left: auto;
 }
 
-.card{
+.contact-card{
     background-color: transparent;
 }
 
@@ -53,8 +57,57 @@ img{
     color: inherit;
 }
 
-article h2{
+h2{
     font-size: 34px;
     padding-left: 1rem;
     padding-right: 1rem;
+}
+
+/* My Works */
+.works{
+    width: 40rem;
+}
+.works .card-body{
+    background-color: slategrey;
+}
+
+.works-btn{
+    border-color: antiquewhite;
+}
+.card-title{
+    color: aliceblue;
+}
+
+.horiseon-img-fluid{
+    height: 20rem;
+    width: 12rem;
+}
+
+.horiseon-card-body{
+    background-color: slategrey;
+    height: 20rem;
+
+}
+.horiseon-card-title{
+    color: aliceblue;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+.horiseon-card-text{
+    padding-bottom: 2rem;
+}
+
+/* Contact CSS */
+.list-group-item{
+    background-color: transparent;
+    color: inherit;
+    display: inline-flexbox;
+}
+
+.btn{
+    background-color: transparent;
+}
+
+.btn-outline-info{
+    border: none;
 }
