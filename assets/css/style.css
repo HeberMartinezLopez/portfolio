@@ -17,8 +17,14 @@ body{
     background: linear-gradient(109.6deg, rgb(31, 179, 237) 11.2%, rgb(17, 106, 197) 91.1%);
 
 }
+
+h1{
+    font-size: 25px;
+}
+
 nav{
     background: linear-gradient(109.6deg, rgb(31, 179, 237) 11.2%, rgb(17, 106, 197) 91.1%);
+    font-size: 20px;
 }
 .logo{
     height: 2%;
@@ -39,18 +45,16 @@ main{
 }
 
 /* About Me CSS */
-img{
-    height: 50%;
-    width: 50%;
+.myPic{
     margin-left: auto;
 }
 
-.contact-card{
+.card{
     background-color: transparent;
 }
 
-.card h2{
-    font-size: 34px;
+.aboutMe-txt{
+    font-size: 25px;
 }
 
 .card-body{
@@ -58,46 +62,53 @@ img{
 }
 
 h2{
-    font-size: 34px;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    font-size: 45px;
+  
+}
+
+.img-fluid{
+    margin-left: auto;
+}
+
+.card-text{
+    font-size: 20px;
 }
 
 /* My Works */
-.works{
-    width: 40rem;
+.title{
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
-.works .card-body{
-    background-color: slategrey;
+.worksCard{
+    background: radial-gradient(circle at 10% 20%, rgb(15, 213, 172) 0%, rgb(34, 182, 198) 100.2%);
+}
+h3{
+    font-size: 30px;
+}
+.works-card-title{
+    color: #002244;
+}
+.btn{
+    font-size: 25px;
+    color: inherit;
+}
+.btn-outline-light {
+    --bs-btn-border-color: beige;
+    --bs-btn-hover-color: beige;
+    --bs-btn-hover-bg: #007791;
+    --bs-btn-hover-border-color: #f8f9fa;
+    color: #005A9C;
 }
 
-.works-btn{
-    border-color: antiquewhite;
-}
-.card-title{
-    color: aliceblue;
-}
-
-.horiseon-img-fluid{
-    height: 20rem;
-    width: 12rem;
-}
-
-.horiseon-card-body{
-    background-color: slategrey;
-    height: 20rem;
-
-}
-.horiseon-card-title{
-    color: aliceblue;
-    padding-top: 5rem;
-    padding-bottom: 3rem;
-}
-.horiseon-card-text{
-    padding-bottom: 2rem;
+.horiseonTxt{
+    padding-bottom: 2.1rem;
 }
 
 /* Contact CSS */
+.contact{
+    text-align: left;
+    font-size: 15px;
+}
 .list-group-item{
     background-color: transparent;
     color: inherit;
@@ -110,4 +121,32 @@ h2{
 
 .btn-outline-info{
     border: none;
+}
+
+/* for big screens */
+@media (min-width: 1400px) {
+    h1{
+        font-size: 75px;
+    }
+    nav{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 75px;
+      
+    }
+    .aboutMe-txt{
+        padding-top: 50rem;
+        font-size: 80px;
+    }
+    .card-text{
+        font-size: 35px;
+    }
+    h3{
+        font-size: 50px;
+    }
+    .contact{
+        font-size: 45px;
+        text-align: center;
+    }
 }

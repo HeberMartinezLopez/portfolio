@@ -15,8 +15,8 @@
 
     <!-- header and navigation section that links to About Me, Works, and Contact  -->
     <header>
-        <h1 class="page-title border border-primary-subtle rounded-3 text-center">Heber Martinez Lopez</h1>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary border border-primary-subtle rounded-3" id="nav1">
+        <h1 class="page-title border border-primary-subtle border-3 rounded-3 text-center">Heber Martinez Lopez</h1>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary border border-primary-subtle border-3 rounded-3" id="nav1">
           <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav2" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -35,75 +35,65 @@
 
 
     <!-- main body code  -->
-    <main class="mt-5 border border-primary-subtle rounded-3 p-4 " data-bs-spy="scroll" data-bs-target="#nav1" tabindex="0" >
+    <main class="mt-5 border border-primary-subtle border-3 rounded-3 p-4 " data-bs-spy="scroll" data-bs-target="#nav1" tabindex="0" >
      
       <!-- about me div -->
-      <div class="contact-card card border border-primary-subtle mb-3" id="aboutMe">
-        <div class="row g-0">
-          <div class="col-md-8">
-            <div class="card-body">
-              <h2 class="card-title">About Me</h2>
-              <p class="card-text">My name is Heber Martinez Lopez.</p>
+      <div class="aboutMe-card" id="aboutMe">
+        <div class="meCard card mb-3 border border-primary-subtle border-3 rounded-3">
+          <div class="row g-0">
+            <div class="col-md-8">
+              <div class="card-body">
+                <h2 class="card-title">About Me</h2>
+                <p class=" aboutMe-txt text-center">My name is Heber Martinez Lopez. I am a web developer currently based in Novato, CA. I am passionate about various coding languages, front-end development, and making music.</p>
+              </div>
             </div>
-          </div>
-          <div class="col-md-4">
-            <img src="./assets/pictures/Me.jpeg" class="img-fluid rounded-end d-flex justify-content-end" alt="...">
+             <div class="col-md-4">
+              <img src="./assets/pictures/Me.jpeg" class="myPic img-fluid rounded-end " alt="...">
+            </div>
           </div>
         </div>
       </div>
 
         <!-- my works div -->
-        <div class="myWorks border border-primary-subtle rounded-3 py-4 mb-3" id="myWorks">
-          <h2>My Works</h2>
-          <div class="works container text-center">
-            <div class="movieContainer row row-cols-auto flex-fill">
+        <div class="myWorks border border-primary-subtle rounded-3 py-4 mb-3 border-3" id="myWorks">
+          <h2 class="title">My Works</h2>
+          <div class="worksContainer container text-center ">
+            <div class="row">
+              <!-- Movie Container Project div -->
               <div class="col">
-                <div class="card border border-white round-3 border-5">
-                  <img src="./assets/pictures/movieContainer.png" class="card-img-top" alt="...">
+                <div class="worksCard card border border-white border-4 rounded-3">
+                  <img src="./assets/pictures/movieContainer.png" class="card-img-top rounded-top-3" alt="...">
+                  <div class="worksCardBody card-body">
+                    <h3 class="works-card-title">Movie Container</h3>
+                    <p class="card-text">Project was built using third-party APIs as well as Tailwind CSS to display movie information searched by user.</p>
+                    <a href="https://frankieramirez72.github.io/Movie-Container/" class="btn btn-outline-light rounded-3">Movie Container</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Horiseon Homepage div -->
+              <div class="col">
+                <div class="worksCard card border border-white border-4 rounded-3">
+                  <img src="./assets/pictures/horiseonHomepage.png" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h3 class="card-title">Movie Container</h3>
-                    <p class="card-text">This project was built using third-party APIs as well as Tailwind CSS. The purpose of this app is to find movie information based on what user searches.</p>
-                    <a href="https://frankieramirez72.github.io/Movie-Container/" class="btn works-btn btn-dark">Movie Container</a>
+                    <h3 class="works-card-title">Horiseon Homepage</h3>
+                    <p class="horiseonTxt card-text">Homepage for a company called Horiseon. It was built using HTML and CSS. </p>
+
+                    <a href="https://hebermartinezlopez.github.io/Horiseon-Homepage/" class="btn btn-outline-light rounded-3">Horiseon Homepage</a>
                   </div>
                 </div>
               </div>
-              <div class="col pt-2">
-                <div class="card border border-white round-3 border-5">
-                  <div class="horiseonCard">
-                    <div class="row g-0">
-                      <div class="col-md-4">
-                        <img src="./assets/pictures/Horiseon.png" class="horiseon-img-fluid object-fit-fill rounded-start" alt="...">
-                      </div>
-                      <div class="col">
-                        <div class="horiseon-card-body ">
-                          <h3 class="horiseon-card-title ">Horiseon Homepage</h3>
-                          <p class="horiseon-card-text">This project is a homepage for a company called Horiseon. It was constructed using HTML and CSS.</p>
-                          <a href="https://hebermartinezlopez.github.io/Horiseon-Homepage/" class="btn works-btn btn-dark">Horiseon Homepage</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- <div class="col">Column</div>
-              <div class="col">Column</div> -->
             </div>
           </div>
 
         </div>
 
         <!-- contact div -->
-        <article class="border border-primary-subtle rounded-3 py-4 box mb-3" id="contact">
-          <h2 class="float-left">Contact</h2>
-          <div class="container-fluid row row-cols-auto">
-            <span class="flex-fill btn btn-outline-info rounded-3">Phone: <a href="#">(415)-555-5555</a></span>
-            <span class="flex-fill btn btn-outline-info rounded-3">Email: <a href="#">hebermartinez14@gmail.com</a></span>
-            <span class="flex-fill btn btn-outline-info rounded-3 text-center">GitHub: <a href="https://github.com/HeberMartinezLopez?tab=repositories">Heber Martinez Lopez</a></span>
-            <!-- <ul class="contact-list flex list-group list-group-horizontal">
-              <li class="list-group-item list-group-item-info flex-fill btn btn-outline-info rounded-3">Phone: <a href="#">(415)-555-5555</a></li>
-              <li class="list-group-item list-group-item-info flex-fill btn btn-outline-info rounded-3">Email: <a href="#">hebermartinez14@gmail.com</a></li>
-              <li class="list-group-item list-group-item-info flex-fill btn btn-outline-info rounded-3">GitHub: <a href="https://github.com/HeberMartinezLopez?tab=repositories">Heber Martinez Lopez</a></li>
-            </ul> -->
+        <article class="border border-primary-subtle rounded-3 py-4 box mb-3 border-3" id="contact">
+          <h2 class="title">Contact</h2>
+          <div class="container-fluid row row-cols-auto ">
+            <span class="contact flex-fill btn btn-outline-info rounded-3 text-wrap">Phone: <a href="#">(415)-555-5555</a></span>
+            <span class="contact flex-fill btn btn-outline-info rounded-3 text-wrap">Email: <a class="contact" href="#">hebermartinez14@gmail.com</a></span>
+            <span class="contact flex-fill btn btn-outline-info rounded-3 text-wrap">GitHub: <a href="https://github.com/HeberMartinezLopez?tab=repositories">Heber Martinez Lopez</a></span>
         </div>
           </article>
     </main>
