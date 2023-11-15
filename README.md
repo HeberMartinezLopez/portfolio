@@ -2,7 +2,7 @@
 
 ## Description
 
-This repo contains all components of Heber Martinez Lopez's professional portfolio. It was built with the intention to demonstrate all of his best works. In creating a page to display his best works, Heber can use this to show future potential employers his capacity, skill, and knowledge of web development. 
+This repo contains all components of Heber Martinez Lopez's professional portfolio. It was built with the intention of demonstrating all of his best works. In creating a page to display his best works, Heber can use this to show future potential employers his capacity, skill, and knowledge of web development. 
 
 ## Installation
 
